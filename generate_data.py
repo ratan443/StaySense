@@ -60,5 +60,5 @@ def main(count=500):
         for i in range(count):
             writer.writerow(create_listing(i))
 
-if __name__ == "main":
+if __name__ == "__main__":
     main()
