@@ -1,5 +1,6 @@
 """
-WHAT THIS DOES: 
+WHAT THIS DOES:
+- 
 - Creates a small vector database (FAISS) to store listing descriptions
 - Uses OpenAI embeddings to make each description searchable by meaning
 - Sets up a retriever that fetches relevant listings for a user's query

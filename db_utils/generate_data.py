@@ -52,7 +52,7 @@ def create_listing(i):
     }
 
 def main(count=500):
-    out_csv = "listings.csv"
+    out_csv = "data/listings.csv"
     keys = ["id", "title", "description", "price", "currency", "latitude", "longitude", "rating", "num_reviews", "tags", "image_urls", "top_reviews", "category", "last_updated"]
     with open(out_csv, "w", newline="", encoding="utf8") as f:
         writer = csv.DictWriter(f, fieldnames=keys)
